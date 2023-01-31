@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+/* body{
+   background-color: #e5e5e5; 
+   
+} */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #e5e5e5;
+    color: #fff;
+    position: relative;
+    
+}
+/* .left-sidebar{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  
+   
+} */
+.col-right{
+border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px; 
+    background: radial-gradient(102.21% 101.36% at 101.79% -0.76%, rgb(6, 78, 75) 0%, rgb(0, 18, 21) 91%);
+   min-height: 100vh;
+
+}
+.right-col{
+    /* background-color: blue; */
+    margin-top: 100px;
+     display: grid;
+    justify-content: center;
+    align-items: center;
+}
+   
+    .r0w-col-rigt-btn button{
+        background-color: #FFA300;
+        width: 20%;
+        height: 60px;
+        border-radius: 5px;
+       margin-left: 200px;
+       border: 20px;
+       /* transform: translate(100%, 0%); */
+    }
+    .col-left{
+
+    }
+    .form-content{
+  
+        margin-top: 40px;
+      }
+      .login{
+        background: #fff;
+        /* background-color: rgb(165, 49, 49); */
+        max-width: 350px;
+        width: 100%;
+        height: 600px;
+        padding: 30px;
+        border-radius: 6px;
+        margin-right: 100px;
+        margin-top: 100px;
+      }
+      form{
+        margin-top: 30px;
+      }
+      .title{
+        color: black;
+        font-size: 20px;
+      }
+      form .flied{
+        height: 50px;
+        width: 100%;
+        margin-top: 20px;
+      }
+      .flied input,
+      .flied button{
+        height: 100%;
+        width: 100%;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 6px;
+       
+      }
+      .flied input{
+        padding: 0 15px;
+        border: 10px;
+        background-color: #F5F7FA;
+      }
+      .button-field{
+        background: #00BABA;
+        border-radius: 6px;
+        
+      }
+      .flied button{
+        color: #fff;
+        background-color: #00baba;}
+      .form-link{
+        text-align: center;
+        margin-top: 10px;
+      }
+      .form-link span,
+      .form-link a{
+       font-size: 14px;
+       font-weight: 400;
+       color: #232836;
+      
+      }
+      .form a{
+        color: #0171d3;
+        text-decoration: none;
+      }
+      .form a:hover{
+        text-decoration: underline;
+      }
+      .line{
+        position: relative ;
+        height: 1px;
+        width: 100%;
+        margin: 36px 0;
+        background-color: #d4d4d4 ;
+      }
+      .line::before{
+        content: 'یا';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        color: #232836;
+        padding: 0 15px;
+      }
+      
